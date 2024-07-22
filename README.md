@@ -1,4 +1,5 @@
 # CNYT
+#### Ciencias naturales y tecnología
 ### Introducción
 El curso explora los conceptos y retos de la computación cuántica por medio de actividades
 de aprendizaje activo tanto en computadores clásicos como en computadores cuánticos. Al
