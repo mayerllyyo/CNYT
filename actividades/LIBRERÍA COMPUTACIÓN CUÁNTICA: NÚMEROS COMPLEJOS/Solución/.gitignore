@@ -1,0 +1,29 @@
+# Archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de entorno virtual
+venv/
+env/
+
+# Archivos de configuración
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+
+# Archivos de compilación
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de registro y salida
+*.log
+*.logs
+
+# Archivos de respaldo y temporales
+*.bak
+*.swp
+*~
