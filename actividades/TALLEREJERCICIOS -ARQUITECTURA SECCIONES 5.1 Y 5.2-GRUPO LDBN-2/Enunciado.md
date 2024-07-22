@@ -12,16 +12,8 @@ Para las siguientes operaciones e identidades, realice lo siguiente:
 
 ### Operaciones/Identidades
 
-1. **a NXOR b (NXOR es la negación del XOR)**
-    - **Tabla de verdad:**
-      \[
-      \begin{array}{|c|c|c|}
-      \hline
-      a & b & a \text{ NXOR } b \\
-      \hline
-      0 & 0 & 1 \\
-      0 & 1 & 0 \\
-      1 & 0 & 0 \\
-      1 & 1 & 1 \\
-      \hline
-      \end{array}
+1. a NXOR b   (NXOR es la negación del XOR)
+2. (NOT P) AND (NOT Q) = NOT (P OR Q)
+3. P AND ( Q OR R) = (P AND Q) OR (P AND R)
+4. (NOT ( X XOR Y)) XOR  (NOT Z)
+5. Adicionador de un bit con acarreo, es decir tres entradas y dos salidas (Mire el ejercicio 5.2.8) del libro. Ojo intente derivar la matriz como composición de circuitos, está parece una tarea bastante difícil no?. Intente entonces modelar solo el circuito para la suma, es decir ignore el acarreo. Muestre la matriz y circuito que obtuvo.
