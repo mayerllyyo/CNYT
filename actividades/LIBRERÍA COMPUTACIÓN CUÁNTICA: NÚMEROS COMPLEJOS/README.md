@@ -1,29 +1,32 @@
-# Complex Operations Library
+# Librería de Operaciones con Números Complejos en Python
 
 ## Descripción
+Este proyecto consiste en una librería escrita en el lenguaje de programación Python para realizar operaciones entre números complejos. Esta librería es parte de un proyecto de tercio y de curso, por lo que ha sido construida y diseñada de manera eficiente y reusable.
 
-Esta biblioteca proporciona funciones para realizar operaciones con números complejos. Incluye funciones para la suma, producto, resta, división, módulo, conjugado, conversión entre coordenadas cartesianas y polares, y cálculo de fase.
+## Características
+La librería modela los números complejos como una tupla, donde el primer componente es la parte real y el segundo la parte imaginaria. Para modelar los números complejos en coordenadas polares, también se usa una tupla, pero en este caso, el primer componente será la magnitud (módulo) y el segundo la fase (ángulo).
 
-## Requisitos
+**Nota: NO USE EL TIPO DE DATOS DE NÚMEROS COMPLEJOS DE PYTHON.**
 
-Asegúrate de tener Python 3.11 instalado en tu sistema antes de utilizar esta biblioteca.
+## Operaciones Soportadas
+La librería soporta las siguientes operaciones entre números complejos:
 
-## Instalación
+1. Suma
+2. Producto
+3. Resta
+4. División
+5. Módulo
+6. Conjugado
+7. Conversión entre representaciones polar y cartesiano, en los dos sentidos
+8. Retornar la fase de un número complejo
 
-1. Descarga el código fuente desde el repositorio.
-2. Abre una terminal y navega hasta el directorio del proyecto.
+## Pruebas Automáticas
+El proyecto incluye un programa que realiza las pruebas automáticas de la librería usando el framework de pruebas `unittest` de Python. Para más información sobre `unittest`, consulte [la documentación oficial](https://docs.python.org/3/library/unittest.html).
 
+## Entregables
+El proyecto en GitHub debe contener al menos los siguientes archivos:
 
-## Uso
-
-Importa el módulo `operaciones` en tu script y utiliza las funciones proporcionadas:
-
-```python
-from operaciones import suma, Producto, resta, Division, Modulo, conjugado, polar_a_cartesiano, cartesiano_a_polar, fase
-
-# Ejemplo de uso
-a = (1, 1)
-b = (5, -2)
-
-print(conjugado(a))
-print(cartesiano_a_polar(b))
+1. **Librería** con las 8 funciones de números complejos.
+2. **Archivo de pruebas automáticas** de las funciones (al menos 2 pruebas por función).
+3. **Readme.md** (Archivo que describe su proyecto escrito en Markdown).
+4. **.gitignore** (Archivo que describe qué archivos dejar por fuera del control de versiones).
