@@ -1,29 +1,25 @@
-# Complex Operations Library
-
-## Descripción
-
-Esta biblioteca proporciona funciones para realizar operaciones con números complejos. Incluye funciones para la suma, producto, resta, división, módulo, conjugado, conversión entre coordenadas cartesianas y polares, y cálculo de fase.
-
-## Requisitos
-
-Asegúrate de tener Python 3.11 instalado en tu sistema antes de utilizar esta biblioteca.
-
-## Instalación
-
-1. Descarga el código fuente desde el repositorio.
-2. Abre una terminal y navega hasta el directorio del proyecto.
-
-
-## Uso
-
-Importa el módulo `operaciones` en tu script y utiliza las funciones proporcionadas:
-
-```python
-from operaciones import suma, Producto, resta, Division, Modulo, conjugado, polar_a_cartesiano, cartesiano_a_polar, fase
-
-# Ejemplo de uso
-a = (1, 1)
-b = (5, -2)
-
-print(conjugado(a))
-print(cartesiano_a_polar(b))
+# CNYT
+### Introducción
+El curso explora los conceptos y retos de la computación cuántica por medio de actividades
+de aprendizaje activo tanto en computadores clásicos como en computadores cuánticos. Al
+final del curso el estudiante tendrá un conocimiento esencial de los fundamentos de la
+computación cuántica y podrá desarrollar e implementar algoritmos cuánticos conocidos
+en el computador cuántico de IBM. Adicionalmente, se espera que al final del curso, el
+estudiante pueda argumentar sobre la importancia de la computación cuántica, sus
+diferencias y similitudes con la computación clásica, y sus alcances e implicaciones en las
+explicaciones fundamentales del universo.
+### ¿Cómo se evaluó el curso?
+1. **Tercio 1**
+   - 50% - Examen téorico-
+   - 35% - Retos de programación, modelos computacionales Y experimentos.
+   - 15% - Participación en clase, ejercicios, quices y actividades.
+2. **Tercio 2**
+   - 50% - Examen téorico-
+   - 35% - Retos de programación, modelos computacionales Y experimentos.
+   - 15% - Participación en clase, ejercicios, quices y actividades.
+3. **Tercio 3**
+   - 50% - Examen téorico-
+   - 35% - Retos de programación, modelos computacionales Y experimentos.
+   - 15% - Participación en clase, ejercicios, quices y actividades.
+### Profesor que dictó el curso
+Luis Daniel Benavides Navarro
